@@ -1,0 +1,15 @@
+* Monadic Scheme
+This is a haskell rewrite in scheme. By 'rewrite' it only means the features, not the semantics. It can be eazier for people experienced with haskell to learn this language. Go to the wiki section of this repository which contains documantation about this language and any developer that has coded before in any langauge, even OO, will be able to dive right into it. The documentation is not friendly enough to be approached without prior knowoledge.
+** Features of the language:
+  + Purity: Your code can only do what you say it to do. It cannot do anything else. It cannot mutate the data without your command. It cannot do side-effects that you have not specified. This makes the language extremely safe.
+  + Functional and Declarative: You do not treat everything as an object. I cannot really explain this part, look up something else.
+  + Static Typing: This goes hand-to-hand with purity. You specify what you want a function to do using the type signature. The function cannot do anything that is not specified in the type signature.
+  + Monadic: Monads are an important mathematical concept that are used to do IO in purely functional languages. More information about them is given in the wiki and it gets pretty technical.
+  + Macros: Macros allow a very easy extension of a language. You can create your own semantics, your own logic, you can just go wild with it. The wiki is your guide on how to do it.
+  + Metaprogramming: Metaprogramming is the concept of interchangability between code and data. This was what enabled us to build artificial intelligence. It has a lot of applications in the real world too.
+  + .NET Ecosystem: The compiler of Monadic Scheme compiles to the Common Language Runtime which allows the use of uncountable number of .NET packages and libraries. Lisp languages tend to have less amount of libraries because of a small userbase. But to have more libraries, we use IronScheme as a backend which compiles to CLR. If you do not want to use any .NET packages or libraries, you can use it by itself too, but it will still compile to CLR.
+  + Minimalistic: The language is built using scheme and tries to remain as minimalistic as possible.
+
+  Note: The usage of IronScheme to access .NET is still not fixed and might be changed to use GNU Guile or GNU/MIT Scheme for more minimalism.
+
+ This is just a project I do for recreational programming. Progress will be very slow. If you want to help dive right in. To discuss the concept and ideas, dm me on discord - MagPhi#3364.
